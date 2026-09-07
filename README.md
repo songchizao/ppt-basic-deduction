@@ -1,5 +1,12 @@
 # PPT基本演绎法（ppt-basic-deduction）
 
+[English](README.en.md) | 中文
+
+[![GitHub stars](https://img.shields.io/github/stars/songchizao/ppt-basic-deduction?style=social)](https://github.com/songchizao/ppt-basic-deduction/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+一个面向 AI Agent（Kimi/Claude Code/workbuddy等）的可复用 Skill：**把 PPT 内容经过学习后写成一篇 Markdown 笔记。核心立场：笔记是对知识的重新表达，不是对幻灯片的逐页转录。**
+
 一个面向 AI Agent（Kimi/Claude Code/workbuddy等）的可复用 Skill：**把 PPT 内容经过学习后写成一篇 Markdown 笔记。核心立场：笔记是对知识的重新表达，不是对幻灯片的逐页转录。**
 
 将 PPT/幻灯片内容转化为一篇"理解型" Markdown 笔记。当用户提供 PPT、PPTX、PDF 课件、幻灯片截图或导出的讲义，并要求做笔记、整理、总结、消化、复盘、转 Markdown、输出学习笔记时使用本 skill。产出不是 PPT 的镜像摘要，而是一位聪明人学完后独立写出的重构笔记：第三方（人或者AI）仅凭该笔记即可完整、准确地讲解原 PPT 的全部要点与逻辑。方法论融合费曼学习法、渐进式总结、知识解构与重构；PPT 中的图片/框架图/拓扑图/逻辑图一律用 Mermaid、表格、ASCII 图或结构化文字原生还原，笔记中禁止出现页码、文件名、"幻灯片/第X页"等任何出处元数据。
